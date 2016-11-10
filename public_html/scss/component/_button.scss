@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+.button-buscar{
+    font-size: 15px;
+}
+.header-buttons{
+    color: white;
+    background-color: #c1bdb4;
+    border-color: #dbd6cb;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: 0;
+}
+.header-buttons:hover{
+    background-color: grey; 
+    border-color: #999e99;
+}
+.header-buttons:focus{
+    box-shadow: inset 3px 3px 10px gray;
+}

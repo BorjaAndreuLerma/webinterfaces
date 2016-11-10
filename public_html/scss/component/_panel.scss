@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-oct-2016, 14:09:35
+    Author     : alumno
+*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.panel-div{
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+}
+.panel-div-head{
+    height: 20px;
+    border: black solid 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-div-content{
+    height: 50px;
+    border: black solid 1px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.panel-menuleft{
+    background-color: #adadad;
+    height: 100%;
+}
+.header-style{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+.divs-panel-menuleft{
+    padding-left: 30px;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.divs-panel-menuleft:hover{
+    background-color: grey;
+}
+.divs-panel-menuleft:active{
+    background-color: #34495E;
+}
+.div-barrabusqueda{
+    border: solid grey 1px;
+    border-radius: 3px;
+    background-color: grey;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 30px;
+    text-align: center;
+}
+.div-busqueda{
+    display:none;
+    position:relative;
+    border: solid grey 1px;
+    border-radius: 3px;
+    background-color: grey;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    margin-top: 5px;
+}
+#busqueda:hover + .div-busqueda {
+    display:block;
+}
+.item-container-busqueda{
+    font-size: 15px;
+    text-align: right;
+    padding-top: 15px;
+    color: white;
+}

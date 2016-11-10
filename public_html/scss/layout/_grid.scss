@@ -1,0 +1,32 @@
+$num-col:12;
+
+@for $i from 1 through $num-col{
+    $ancho:((100/12)*$i)*1%;;
+    .col-#{$i}{
+        float: left;
+        width: $ancho;
+    }
+
+    .offset-#{$i}{
+        margin-left: $ancho;
+    }
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.borde-div{
+    border: red solid 1px;
+}
+
+@media  (min-width:750px){
+    @for $i from 1 through $num-col{
+        .col-m-#{$i}{
+            float:left;
+            width: ((100/$num-col)*$i)*1%
+        }
+    }
+}
